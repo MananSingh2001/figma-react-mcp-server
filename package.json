@@ -1,6 +1,6 @@
 {
   "name": "@manansiingh/figma-react-mcp-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "mcpName": "io.github.MananSingh2001/figma-react",
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "model-context-protocol", "typescript", "figma-api"
   ],
   "description": "An MCP server that converts Figma designs into React code.",
+  "license": "MIT",
   "main": "build/index.js",
   "bin": {
     "figma-react-mcp-server": "./build/index.js"
