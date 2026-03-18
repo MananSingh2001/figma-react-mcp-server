@@ -1,0 +1,37 @@
+{
+  "name": "@manansiingh/figma-react-mcp-server",
+  "version": "1.0.6",
+  "mcpName": "io.github.MananSingh2001/figma-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MananSingh2001/figma-react-mcp-server"
+  },
+  "homepage": "https://github.com/MananSingh2001/figma-react-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/MananSingh2001/figma-react-mcp-server/issues"
+  },
+  "keywords": [
+    "mcp", "figma", "react", "design-tokens",
+    "micro-frontend", "mfe", "widget-registry",
+    "model-context-protocol", "typescript", "figma-api"
+  ],
+  "description": "An MCP server that converts Figma designs into React code.",
+  "main": "build/index.js",
+  "bin": {
+    "figma-react-mcp-server": "./build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.1",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

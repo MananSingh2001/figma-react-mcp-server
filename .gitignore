@@ -1,0 +1,6 @@
+node_modules/
+build/
+.mcpregistry_github_token
+.mcpregistry_registry_token
+readPdf.js
+readPdf.cjs
